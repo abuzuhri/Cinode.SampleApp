@@ -1,4 +1,5 @@
 ﻿using GoTech.Framework.Core;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,9 +16,11 @@ namespace Cinode.RateApp.Data.Entity
         [ForeignKey("SkillId")]
         public Skill Skill { get; set; }
 
+        [JsonIgnore]
         [ForeignKey("RateId")]
         public Rate Rate { get; set; }
 
+        [JsonIgnore]
         [ForeignKey("UserId")]
         public User User { get; set; }
     }
