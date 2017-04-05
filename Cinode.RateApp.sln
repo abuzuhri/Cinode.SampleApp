@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinode.RateApp.Data", "Cinode.RateApp.Data\Cinode.RateApp.Data.csproj", "{817AEB4A-ADCD-437D-B879-5179278ACA82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinode.RateApp.Data", "Cinode.RateApp.Data\Cinode.RateApp.Data.csproj", "{460537B8-5335-4365-98F1-E218EB4BC379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinode.RateApp.Business", "Cinode.RateApp.Business\Cinode.RateApp.Business.csproj", "{E47835A2-5898-48D5-9430-557C9223C190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinode.RateApp.API", "Cinode.RateApp.API\Cinode.RateApp.API.csproj", "{CD55A700-BDDF-4F61-BE7F-DFEFC417F33E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinode.RateApp.Web", "Cinode.RateApp.Web\Cinode.RateApp.Web.csproj", "{63305E3C-9EA3-45CF-9837-79844CBE71A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{817AEB4A-ADCD-437D-B879-5179278ACA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{817AEB4A-ADCD-437D-B879-5179278ACA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{817AEB4A-ADCD-437D-B879-5179278ACA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{817AEB4A-ADCD-437D-B879-5179278ACA82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{460537B8-5335-4365-98F1-E218EB4BC379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460537B8-5335-4365-98F1-E218EB4BC379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460537B8-5335-4365-98F1-E218EB4BC379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460537B8-5335-4365-98F1-E218EB4BC379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47835A2-5898-48D5-9430-557C9223C190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47835A2-5898-48D5-9430-557C9223C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47835A2-5898-48D5-9430-557C9223C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47835A2-5898-48D5-9430-557C9223C190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD55A700-BDDF-4F61-BE7F-DFEFC417F33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD55A700-BDDF-4F61-BE7F-DFEFC417F33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD55A700-BDDF-4F61-BE7F-DFEFC417F33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD55A700-BDDF-4F61-BE7F-DFEFC417F33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63305E3C-9EA3-45CF-9837-79844CBE71A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63305E3C-9EA3-45CF-9837-79844CBE71A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63305E3C-9EA3-45CF-9837-79844CBE71A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63305E3C-9EA3-45CF-9837-79844CBE71A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
