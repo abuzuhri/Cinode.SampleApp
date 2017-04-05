@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GoTechFramework\GoTech.Framework.Core\GoTech.Framework.Core.csproj" />
   </ItemGroup>
 
