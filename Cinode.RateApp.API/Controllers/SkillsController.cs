@@ -17,7 +17,7 @@ namespace Cinode.RateApp.API.Controllers
         [HttpGet("{Name}")]
         public IList<SkillModel> Get(string Name)
         {
-            return service.GetSkill(Name);
+            return service.GetSkill(Name); 
         }
     }
 }
